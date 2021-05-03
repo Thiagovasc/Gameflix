@@ -2,6 +2,11 @@
 ## Plataforma de jogos
 ## Referências: Netflix, Steam, PSN.
 
+![Screenshot_2021-05-03 GAMEFLIX](https://user-images.githubusercontent.com/70722802/116913881-65b19580-ac20-11eb-881f-7a29efa11e61.png)
+
+
+
+
 ## Tecnologias utilizadas:
 - Html;
 - Css;
