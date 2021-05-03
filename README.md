@@ -1,1 +1,2 @@
-Este é um projeto de 'streaming' de jogos usando a roupagem da netflix como referência
+# GAMEFLIX
+## Plataforma de jogos em alusão ao netflix, utilizando o mesmo como referência de layout/aparencia 
