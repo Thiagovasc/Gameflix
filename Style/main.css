@@ -1,0 +1,106 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Limites não excederam a borda*/
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .Logo {
+    margin-left: 4px;
+    color: var(--vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: honeydew;
+}
+
+/*Game Principal */
+
+.game-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)100%), url("../Imagens/Outriders-Capa.jpg");
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.game-principal .descricao {
+    margin-top: 3px;
+    margin-bottom: 40px;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    margin-right: 10px;
+
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.game-principal .container{
+    width: 75%;
+}
+
+.box-jogos {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrossel-jogos {
+    margin-top: 5px;
+}
